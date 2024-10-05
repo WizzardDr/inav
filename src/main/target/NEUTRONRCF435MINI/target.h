@@ -149,11 +149,13 @@
 #define UART3_TX_PIN            PB11
 
 #define USE_UART5
-#define UART5_RX_PIN            PB8
+#define USE_UART5_PIN_SWAP
+#define UART5_RX_PIN            PB3
 #define UART5_TX_PIN            PB9
 
 #define USE_UART7
-#define UART7_RX_PIN            PB3
+#define USE_UART7_PIN_SWAP
+#define UART7_RX_PIN            PB8
 #define UART7_TX_PIN            PB4
 
 #define SERIAL_PORT_COUNT       6
